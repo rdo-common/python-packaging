@@ -1,7 +1,7 @@
 %global pypi_name packaging
 
 Name:           python-%{pypi_name}
-Version:        16.7
+Version:        16.8
 Release:        1%{?dist}
 Summary:        Core utilities for Python packages
 
@@ -96,5 +96,8 @@ rm -rf html/_static/fonts/
 %license LICENSE LICENSE.APACHE LICENSE.BSD
 
 %changelog
+* Wed Nov 02 2016 Lumir Balhar <lbalhar@redhat.com> - 16.8-1
+- New upstream version
+
 * Fri Sep 16 2016 Lumir Balhar <lbalhar@redhat.com> - 16.7-1
 - Initial package.
