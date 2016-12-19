@@ -2,7 +2,7 @@
 
 Name:           python-%{pypi_name}
 Version:        16.8
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Core utilities for Python packages
 
 License:        BSD or ASL 2.0
@@ -96,6 +96,9 @@ rm -rf html/_static/fonts/
 %license LICENSE LICENSE.APACHE LICENSE.BSD
 
 %changelog
+* Mon Dec 19 2016 Miro Hrončok <mhroncok@redhat.com> - 16.8-2
+- Rebuild for Python 3.6
+
 * Wed Nov 02 2016 Lumir Balhar <lbalhar@redhat.com> - 16.8-1
 - New upstream version
 
